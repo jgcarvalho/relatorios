@@ -1,0 +1,37 @@
+\documentclass[11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{mathpazo} % add possibly `sc` and `osf` options
+\usepackage{eulervm}
+
+\linespread{1.10}
+\usepackage{indentfirst}
+\setlength\parindent{1cm}
+
+\usepackage[square]{natbib}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+
+
+
+% Title Page
+\title{Dinâmica Molecular CsCyp}
+\author{José Geraldo de Carvalho Pereira}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+	Colaboração com o grupo do Dr. Celso Benedetti com o objetivo de analisar a consequência estrutural/funcional da mutação S58F na proteína CsCyp. A ciclofilina CsCyp possui um mecanismo de regulação pela redução/oxidação da ponte dissulfeto C40-C168, sendo que quando esta ponte está presente, a proteína encontra-se na forma inativa. Em um trabalho anterior do grupo do Dr. Celso Benedetti sobre a CsCyp criou-se a hipótese de que a ponte dissulfeto alteraria estruturalmente o loop variável. Esta alteração seria então propagada por meio do E83 para o loop catalítico o qual fecharia o sítio ativo.
+	Neste trabalho buscamos simular por meio de dinâmica molecular como a mudança S58F afetaria a atividade e também comparar os resultados com a proteína selvagem e com a mutação E83A.
+\end{abstract}
+
+\include{inicio}
+\include{resultado}
+
+\bibliographystyle{cell}
+\bibliography{refcscyp}
+
+\end{document}          

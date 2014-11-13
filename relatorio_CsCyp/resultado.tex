@@ -1,0 +1,63 @@
+
+\section*{Resultados}
+
+\subsection*{CsCyp \textit{wt}}
+
+ Na simulação de 100ns da CsCyp \textit{wt} e da CsCyp \textit{wt} S-S não foi observado o movimento do loop catalítico (D73-E83) descrito no mecanismo proposto pelo grupo do Dr. Celso Benedetti \citep{Campos2013}. É possível questionarmos se o tempo e o número de simulações seriam suficientes ou não para permitir observarmos essa mudança conformacional do loop catalítico fechando o sitio ativo, no entanto, há também a possibilidade de ocorrerem outras mudanças conformacionais que poderiam regular a atividade da CsCyp.
+ 
+ Ao contrário do que poderia se esperar, a simulação sugere que as regiões do loop catalítico são estáveis em conformações muito similares durante a simulação, mas foi possível observar que outras regiões próximas ao sítio ativo sofrem efeitos tão ou até mais intensos resultantes da ligação dissulfeto $C^{40}-C^{168}$.
+
+Uma dessas regiões é o longo loop (S88-G101) consecutivo sequencialmente ao loop catalítico. Ambos estão em contato com outro loop (A108-Q118) que também demonstra ser influenciado pela ligação S-S. Esse último, possui resíduos relacionados a atividade catalítica e a ligação do substrato como A108, N109, A110 e o G116. 
+
+No caso da CsCyp \textit{wt} o loop (A108-Q118) apresentou maior flexibilidade em relação à CsCyp \textit{wt} S-S, sendo que nessa última ele apresentou também uma aparente mudança conformacional. Interessantemente, a flexibilidade desta região está possivelmente relacionada a atividade catalítica em CypA \citep{Eisenmesser2002} e assim, a diminuição da flexibilidade desta região estaria de acordo com a inibição da atividade nesta proteína.
+
+Outra região que apresenta mudança conformacional e alteração na flexibilidade é a região T126-H133 a qual forma uma hélice e possui resíduos que participam do sítio ativo (W128, L129 e H133). Essa região está em contato tanto com o loop longo (S88-G101) assim como com o loop (A108-Q118) por meio da H133. Na CsCyp \textit{wt} S-S o W128 parece se distanciar do sítio ativo, o que, devido a sua função catalítica, também estaria de acordo com a inibição da proteína. Não foi possível determinar precisamente quem poderia ter maior influência na alteração estrutural da região T126-H133, mas o resíduo F95 apresentou uma diferença conformacional em sua cadeia lateral, a qual esta em contato direto com essa região, o que pode ser um indício que o loop longo (S88-G101) estaria propagando o sinal da ponte dissulfeto.
+
+
+
+  
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{../../Pictures/cyp_noss}
+	\caption{CsCyp \textit{wt}: RMSF dos últimos 50ns da simulação de 100ns}
+\end{figure}
+     
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{../../Pictures/cyp_ss}
+	\caption{CsCyp \textit{wt} S-S: RMSF dos últimos 50ns da simulação de 100ns}
+\end{figure}
+
+\subsection*{CsCyp S58F}
+
+As simulações de 100ns da CsCyp S58F e da CsCyp S58F S-S foram feitas para procurar compreender estruturalmente como esta mutação poderia afetar o funcionamento e a regulação da CsCyp.  
+
+A CsCyp S58F demonstrou maior estabilidade que as CsCyp \textit{wt} na avaliação do RMSF e uma estrutura média muito similar a CsCyp \textit{wt} sem a ponte dissulfeto. Isso sugere que ela também seja a conformação ativa, mas não sabemos se a possível diferença de estabilidade está relacionada a maior ou menor eficiência enzimática.
+
+A CsCyp S58F S-S, diferentemente da CsCyp \textit{wt} S-S, para possuir uma conformação mais semelhante a CsCyp ativa. Observamos inclusive uma maior mobilidade estrutural no loop A108-Q118 em relação a CsCyp S58F, mobilidade que, como mencionada anteriormente, pode estar relacionada a função catalítica \citep{Eisenmesser2002}. Há também uma maior estabilidade do loop catalítico em uma posição que amplia o sítio ativo, e maior mobilidade do longo loop (S88-G101) e do loop variável.
+
+Esses dados nos permite levantar diversas hipóteses:
+
+\begin{enumerate}
+	\item A mudança S58F anula a regulação da CsCyp pela ponte dissulfeto. Uma evidência para essa hipótese seria a a semelhança entre a CsCyp S58F S-S e a CsCyp \textit{wt}.
+	\item A mudança S58F poderia aumentar a eficiência da CsCyp S58F em relação a CsCyp \textit{wt}, o que seria uma consequência do aumento de estabilidade da conformação ativa.
+	\item A mudança S58F poderia inverter o mecanismo de regulação. Da mesma forma que o aumento de estabilidade 
+\end{enumerate}
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{../../Pictures/cyp_s58f_noss}
+	\caption{CsCyp S58F: RMSF dos últimos 50ns da simulação de 100ns}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{../../Pictures/cyp_s58f_ss}
+	\caption{CsCyp S58F S-S: RMSF dos últimos 50ns da simulação de 100ns}
+\end{figure}
+
+
+  
+ 
