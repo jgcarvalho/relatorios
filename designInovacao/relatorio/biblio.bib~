@@ -1,0 +1,85 @@
+﻿@article {WRCR:WRCR8771,
+author = {Reed, Patrick and Minsker, Barbara and Goldberg, David E.},
+title = {Designing a competent simple genetic algorithm for search and optimization},
+journal = {Water Resources Research},
+volume = {36},
+number = {12},
+issn = {1944-7973},
+url = {http://dx.doi.org/10.1029/2000WR900231},
+doi = {10.1029/2000WR900231},
+pages = {3757--3761},
+year = {2000},
+}
+
+
+
+@article{Harik:1999:GRP:1326811.1326813,
+ author = {Harik, George and Cant\'{u}-Paz, Erick and Goldberg, David E. and Miller, Brad L.},
+ title = {The Gambler's Ruin Problem, Genetic Algorithms, and the Sizing of Populations},
+ journal = {Evol. Comput.},
+ issue_date = {Fall 1999},
+ volume = {7},
+ number = {3},
+ month = sep,
+ year = {1999},
+ issn = {1063-6560},
+ pages = {231--253},
+ numpages = {23},
+ url = {http://dx.doi.org/10.1162/evco.1999.7.3.231},
+ doi = {10.1162/evco.1999.7.3.231},
+ acmid = {1326813},
+ publisher = {MIT Press},
+ address = {Cambridge, MA, USA},
+ keywords = {Population size, building block supply, decision making, noise},
+} 
+
+@article{Thierens:1994:CMG:645822.670524,
+ author = {Thierens, Dirk and Goldberg, David E.},
+ title = {Convergence Models of Genetic Algorithm Selection Schemes},
+ booktitle = {Proceedings of the International Conference on Evolutionary Computation. The Third Conference on Parallel Problem Solving from Nature: Parallel Problem Solving from Nature},
+ series = {PPSN III},
+ year = {1994},
+ isbn = {3-540-58484-6},
+ pages = {119--129},
+ numpages = {11},
+ url = {http://dl.acm.org/citation.cfm?id=645822.670524},
+ acmid = {670524},
+ publisher = {Springer-Verlag},
+ address = {London, UK, UK},
+} 
+
+@MISC{Thierens98dominoconvergence,
+    author = {Dirk Thierens and David E. Goldberg and Ângela Guimarães Pereira and Angela Guimar~aes Pereira},
+    title = {Domino Convergence, Drift, and the Temporal-Salience Structure of Problems},
+    year = {1998}
+}
+
+@article{Wolfram19841,
+title = "Universality and complexity in cellular automata ",
+journal = "Physica D: Nonlinear Phenomena ",
+volume = "10",
+number = "1–2",
+pages = "1 - 35",
+year = "1984",
+note = "",
+issn = "0167-2789",
+doi = "http://dx.doi.org/10.1016/0167-2789(84)90245-8",
+url = "http://www.sciencedirect.com/science/article/pii/0167278984902458",
+author = "Stephen Wolfram"
+}
+
+@book{citeulike:12886945,
+    author = {Mitchell, Melanie},
+    citeulike-article-id = {12886945},
+    comment = {<p>Background and history. What is complexity? ; dynamics, chaos, and prediction ; Information ; Computation ; Evolution ; Genetics, simplified ; Defining and measuring complexity -- Life and evolution in computers. Self-reproducing computer programs ; Genetic algorithms -- Computation writ large. Cellular automata, life, and the universe ; Computing with particles ; Information processing in living systems ; How to make analogies (if you are a computer) ; Prospects of computer modeling -- Network thinking. The science of networks ; Applying network science to real-world networks ; The mystery of scaling ; Evolution, complexified -- Conclusion. The past and future of the sciences of complexity</p>},
+    isbn = {9780195124415},
+    keywords = {complexity, leido, philosophy},
+    location = {Oxford [England] ; New York},
+    pages = {349+},
+    posted-at = {2014-01-01 18:19:26},
+    priority = {0},
+    publisher = {Oxford University Press},
+    title = {{Complexity: a guided tour}},
+    year = {2009}
+}
+

@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+
+\bibitem[Ganguly et~al., 2003]{Ganguly03asurvey}
+Ganguly, N., Sikdar, B.~K., Deutsch, A., Canright, G., and Chaudhuri, P.~P.
+  (2003).
+\newblock A survey on cellular automata.
+\newblock Technical report.
+
+\bibitem[Harik et~al., 1999]{Harik:1999:GRP:1326811.1326813}
+Harik, G., Cant\'{u}-Paz, E., Goldberg, D.~E., and Miller, B.~L. (1999).
+\newblock The gambler's ruin problem, genetic algorithms, and the sizing of
+  populations.
+\newblock {\em Evol. Comput.}, 7(3):231--253.
+
+\bibitem[Mitchell, 2009]{citeulike:12886945}
+Mitchell, M. (2009).
+\newblock {\em {Complexity: a guided tour}}.
+\newblock Oxford University Press.
+
+\bibitem[Reed et~al., 2000]{WRCR:WRCR8771}
+Reed, P., Minsker, B., and Goldberg, D.~E. (2000).
+\newblock Designing a competent simple genetic algorithm for search and
+  optimization.
+\newblock {\em Water Resources Research}, 36(12):3757--3761.
+
+\bibitem[Thierens and Goldberg, 1994]{Thierens:1994:CMG:645822.670524}
+Thierens, D. and Goldberg, D.~E. (1994).
+\newblock Convergence models of genetic algorithm selection schemes.
+\newblock pages 119--129.
+
+\bibitem[Thierens et~al., 1998]{Thierens98dominoconvergence}
+Thierens, D., Goldberg, D.~E., Ângela Guimarães~Pereira, and aes Pereira,
+  A.~G. (1998).
+\newblock Domino convergence, drift, and the temporal-salience structure of
+  problems.
+
+\bibitem[Wolfram, 1984]{Wolfram19841}
+Wolfram, S. (1984).
+\newblock Universality and complexity in cellular automata.
+\newblock {\em Physica D: Nonlinear Phenomena}, 10(1–2):1 -- 35.
+
+\end{thebibliography}

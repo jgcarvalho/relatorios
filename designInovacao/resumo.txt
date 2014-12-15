@@ -1,0 +1,16 @@
+as 576 iniciais são # (24x24)
+
+cada individuo tem 13248 genes (regras variaveis) (=m)
+
+blocos (1 ou 3)
+
+variancia média = 0.000575736516574
+desvio padrao medio = 0,02399451
+
+d (h1-h2) = 0,001972661
+
+desvio padrao / d = 41,676199632
+
+n = -ln(0.1)
+
+
