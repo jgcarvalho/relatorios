@@ -5019,7 +5019,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.13"
-     inkscape:cx="317.4804"
+     inkscape:cx="261.61186"
      inkscape:cy="434.9672"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -35713,27 +35713,27 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:palatino;-inkscape-font-specification:palatino"
-       x="207.99046"
+       x="201.71983"
        y="691.0296"
        id="text35381"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan35383"
-         x="207.99046"
+         x="201.71983"
          y="691.0296"
-         style="font-size:16px">Estrutura secundária predita</tspan></text>
+         style="font-size:16px">Secondary Structure Predicted</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text36320"
        y="743.0296"
-       x="162.40405"
+       x="161.43492"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:palatino;-inkscape-font-specification:palatino"
        xml:space="preserve"><tspan
          y="743.0296"
-         x="162.40405"
+         x="161.43492"
          id="tspan36322"
          sodipodi:role="line"
-         style="font-size:16px">Estrutura secundária atribuída (ex: DSSP)</tspan></text>
+         style="font-size:16px">Secondary Structure Assigned (e.g. DSSP)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 563.16004,671.8367 7.07107,0 0,113.13708 -7.07107,0"
@@ -35742,7 +35742,7 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:palatino;-inkscape-font-specification:palatino"
-       x="-728.35962"
+       x="-728.48474"
        y="584.34326"
        id="text36334"
        sodipodi:linespacing="125%"
@@ -35750,11 +35750,11 @@
        inkscape:transform-center-x="-57.142857"><tspan
          sodipodi:role="line"
          id="tspan36336"
-         x="-728.35962"
+         x="-728.48474"
          y="584.34326"
-         style="font-size:14px;text-align:center;text-anchor:middle">Similaridade</tspan><tspan
+         style="font-size:14px;text-align:center;text-anchor:middle">Similarity</tspan><tspan
          sodipodi:role="line"
-         x="-728.35962"
+         x="-728.48474"
          y="601.84326"
          style="font-size:14px;text-align:center;text-anchor:middle"
          id="tspan36338">(Fitness)</tspan></text>
@@ -36428,14 +36428,14 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:palatino;-inkscape-font-specification:palatino"
-       x="264.28708"
+       x="240.81506"
        y="452.36218"
        id="text38531"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan38533"
-         x="264.28708"
+         x="240.81506"
          y="452.36218"
-         style="font-size:16px">Regra de transição</tspan></text>
+         style="font-size:16px">Cellular Automaton Rule</tspan></text>
   </g>
 </svg>
