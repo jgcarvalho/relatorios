@@ -1,4 +1,4 @@
-% \documentclass[]{scrreprt}
+\documentclass[]{scrreprt}
 
 \usepackage[utf8]{inputenc}	
 
@@ -21,7 +21,6 @@
 %\end{abstract}
 
 \chapter{Introdução}
-
 \section{Autômatos celulares}
 
 Os autômatos celulares foram inventados na década de 40 por John von Neumann baseando-se em sugestões de seu colega, o matemático Stanislaw Ulan \cite{citeulike:12886945}. Autômatos celulares são modelos matemáticos para representar sistemas complexos e consistem num conjunto de células discretas espacialmente que apresentam um estado dentre um

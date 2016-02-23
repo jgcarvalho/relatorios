@@ -1,0 +1,1408 @@
+#LyX file created by tex2lyx 2.1
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 
+\backslash
+documentclass[]{scrreprt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+usepackage[utf8]{inputenc}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset FormulaMacro
+\renewcommand{\baselinestretch}{1.5}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+usepackage{graphicx}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+usepackage{float}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Title Page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Projeto de InovaÃ§Ã£o com Algoritmos GenÃ©ticos
+\end_layout
+
+\begin_layout Author
+JosÃ© Geraldo de Carvalho Pereira
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{document}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+begin{abstract}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+chapter{IntroduÃ§Ã£o}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+AutÃ´matos celulares
+\end_layout
+
+\begin_layout Standard
+Os autÃ´matos celulares foram inventados na dÃ©cada de 40 por John von Neumann baseando-se em sugestÃµes de seu colega, o matemÃ¡tico Stanislaw Ulan 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "citeulike:12886945"
+
+\end_inset
+
+. AutÃ´matos celulares sÃ£o modelos matemÃ¡ticos para representar sistemas complexos e consistem num conjunto de cÃ©lulas discretas espacialmente que apresentam um estado dentre um conjunto finito de estados possÃ­veis. Os autÃ´matos celulares evoluem paralelamente, ou seja, o estado de cada cÃ©lula evolui de maneira sÃ­ncrona em passos discretos de tempo e de acordo com regras simples e determinÃ­sticas gerando uma complexidade a partir do efeito cooperativo de elementos simples â as regras e as cÃ©lulas â tratando-se portanto de uma complexidade emergente, que surge globalmente no sistema a partir de regras simples, locais e determinÃ­sticas 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Wolfram19841"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+AutÃ´matos celulares tem sido utilizados em diversos campos de pesquisa como por exemplo na modelagem de sistemas: (1) biolÃ³gicos, desde eventos intracelulares, como redes de interaÃ§Ã£o proteicas, atÃ© estudo de populaÃ§Ãµes; (2) quÃ­micos, na modelagem cinÃ©tica de sistemas moleculares e no crescimento de cristais; (3) fÃ­sicos, para o estudos sistemas dinÃ¢micos, desde a interaÃ§Ã£o entre partÃ­culas atÃ© o agrupamento de galÃ¡xias 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Ganguly03asurvey"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ca"
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ca_final.pdf
+	width 100line%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+Exemplo de um autÃ´mato celular elementar. Este Ã© o tipo de autÃ´mato celular mais simples, pois Ã© unidimensional, possui apenas dois estados (0 ou 1) e possui vizinhanÃ§a 1 (uma cÃ©lula a esquerda e uma a direita). O autÃ´mato inicia com um linha de cÃ©lulas (
+\begin_inset Formula $t_{0}$
+\end_inset
+
+) e evolui atravÃ©s da aplicaÃ§Ã£o de uma regra de transiÃ§Ã£o que irÃ¡ determinar o estado de cada uma das cÃ©lulas na geraÃ§Ã£o seguinte (
+\begin_inset Formula $t_{1}$
+\end_inset
+
+). Este processo ocorre iterativamente produzindo, muitas vezes, uma complexidade global que emerge da aplicaÃ§Ã£o da regra local.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+AutÃ´matos celulares aplicados a prediÃ§Ã£o da estrutura secundÃ¡ria proteica
+\end_layout
+
+\begin_layout Standard
+Neste trabalho buscamos utilizar autÃ´matos celulares para predizer a estrutura secundÃ¡ria de proteÃ­nas (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ca_ss"
+
+\end_inset
+
+). Assim como os autÃ´matos celulares elementares (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ca"
+
+\end_inset
+
+), os autÃ´matos celulares que planejamos sÃ£o unidimensionais e possuem vizinhanÃ§a um, ou seja, cada cÃ©lula evolui de acordo com o seu estado atual e o estados de seu vizinho a esquerda e a direita. Entretanto, esse autÃ´mato celular nÃ£o possui apenas dois estados (0 ou 1) como os elementares e portanto, cada regra nÃ£o Ã© composta apenas de 8 elementos, mas de 13824 elementos (EquaÃ§Ã£o 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq_rules"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{eqnarray*}\label{eq_rules}
+nElementos & = & (nAA + nSS + n\#)^3\\
+		   & = & (20 + 3 + 1)^3\\
+           & = & 13824
+\end{eqnarray*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $nAA$
+\end_inset
+
+ Ã© o nÃºmero de aminoÃ¡cidos (20), 
+\begin_inset Formula $nSS$
+\end_inset
+
+ Ã© o nÃºmero de elementos da estrura secundÃ¡ria (3 = hÃ©lice, fita, alÃ§a) e 
+\begin_inset Formula $n\#$
+\end_inset
+
+ Ã© o sinal de inÃ­cio/tÃ©rmino da cadeia polipeptÃ­dica. O expoente 3 Ã© resultado do nÃºmero de cÃ©lulas que determinam o estado seguinte, nesse caso, o estado da prÃ³pria cÃ©lula e os estados dos vizinhos, um a esquerda e um a direita.
+\end_layout
+
+\begin_layout Standard
+Cada um desses 13824 elementos da regra de transiÃ§Ã£o podem evoluir pra quatro estados possÃ­veis. TrÃªs deles representam elementos de estrutura secundÃ¡ria e um deles representa um estado indefinido o qual indica que a cÃ©lula assumirÃ¡ um estado igual ao seu estado inicial (estado em 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Desses 13824 elementos, 576 deles possuem o sinal de inÃ­cio/tÃ©rmino 
+\begin_inset Formula $\#$
+\end_inset
+
+ na cÃ©lula central. Esses elementos evoluem sempre para o estado 
+\begin_inset Formula $\#$
+\end_inset
+
+ para conservar o sinal de inÃ­cio/tÃ©rmino da cadeia polipeptÃ­dica. Outros 23 elementos possuem ambos os vizinhos com o sinal de inÃ­cio/tÃ©rmino 
+\begin_inset Formula $\#$
+\end_inset
+
+ e permanecerÃ£o constantemente no estado inicial 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+. Assim, somente os 13225 elementos restantes poderÃ£o assumir um dos quatro estados possÃ­veis mencionados anteriormente. Nosso problema resume-se, portanto, em encontrar a melhor combinaÃ§Ã£o desses 13225 elementos capaz de predizer a estrutura secundÃ¡ria proteica.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ca_ss"
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ca-ss_final.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+Esquema de um autÃ´mato celular para a prediÃ§Ã£o de estruturas secundÃ¡rias. A regra de transiÃ§Ã£o do autÃ´mato Ã© composta de 13824 elementos. O estado inicial do autÃ´mato (
+\begin_inset Formula $t_{0}$
+\end_inset
+
+) Ã© formado pela sequÃªncia de aminoÃ¡cidos da proteÃ­na. O estado 
+\begin_inset Formula $\#$
+\end_inset
+
+ indica o inÃ­cio ou o fim da cadeia polipeptÃ­dica e pode ser utilizado para concatenar mÃºltiplas proteÃ­nas, funcionando como uma barreira de influÃªncia entre elas. O estado final do autÃ´mato celular 
+\begin_inset Formula $t_{n}$
+\end_inset
+
+, onde 
+\begin_inset Formula $n$
+\end_inset
+
+ Ã© um nÃºmero finito, Ã© a estrutura secundÃ¡ria predita e sua similaridade com a estrutura secundÃ¡ria atribuÃ­da pode ser considerada uma medida do fitness da regra de transiÃ§Ã£o.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Algoritmo genÃ©tico na busca da regra de transiÃ§Ã£o do autÃ´mato celular
+\end_layout
+
+\begin_layout Standard
+A busca de uma regra de transiÃ§Ã£o capaz de reproduzir um padrÃ£o desejado no autÃ´mato celular Ã© conhecido como o "problema inverso". Como mencionado anteriormente, neste trabalho buscamos encontrar a melhor combinaÃ§Ã£o para 13225 elementos da regra de transiÃ§Ã£o, sendo que cada um desses elementos podem assumir um entre quatro estados possÃ­veis. Logo, o espaÃ§o de regras Ã© igual a 
+\begin_inset Formula $4^{13225}$
+\end_inset
+
+ regras. Esse enorme espaÃ§o de regras torna essencial a utilizaÃ§Ã£o de um mÃ©todo de busca como por exemplo, algoritmos genÃ©ticos (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ca_ga"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "ca_ga"
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ca_ga_final.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+RepresentaÃ§Ã£o da utilizaÃ§Ã£o de um algoritmo genÃ©tico na busca por uma regra de transiÃ§Ã£o capaz de predizer estrututuras secundÃ¡rias proteicas. Os cromossomos possuem 13225 genes, ou variÃ¡veis, que podem assumir quatro estados distintos. Cada indivÃ­duo apresenta uma combinaÃ§Ã£o desses estados. Essa combinaÃ§Ã£o corresponde a uma regra de transiÃ§Ã£o de um autÃ´mato celular que irÃ¡ evoluir por um nÃºmero definido de passos. A comparaÃ§Ã£o do resultado dessa evoluÃ§Ã£o com a estrutura secundÃ¡ria atribuÃ­da ("real") fornece uma medida do fitness da regra. Utilizando-se um algoritmo genÃ©tico competente esperasse que ocorra uma convergÃªncia para a regra com maior fitness, ou seja, a que melhor prediz a estrutura secundÃ¡ria da proteÃ­na.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+chapter{AnÃ¡lise do problema}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tamanho da populaÃ§Ã£o
+\end_layout
+
+\begin_layout Standard
+O primeiro passo no design de algoritmos genÃ©ticos competentes Ã© o cÃ¡lculo para estimar o tamanho da populaÃ§Ã£o. O tamanho da populaÃ§Ã£o 
+\begin_inset Formula $N$
+\end_inset
+
+ pode ser estimado usando a equaÃ§Ã£o (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqn"
+
+\end_inset
+
+) desenvolvida por Harik e colaboradores 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Harik:1999:GRP:1326811.1326813"
+
+\end_inset
+
+, a qual considera dois fatores que influenciam na convergÃªncia para uma soluÃ§Ã£o Ã³tima: (1) o suprimento inicial de building blocks (BBs) e a seleÃ§Ã£o dos melhores BBs em detrimento de seus competidores.
+\end_layout
+
+\begin_layout Standard
+A equaÃ§Ã£o (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqn"
+
+\end_inset
+
+) Ã© baseada em um modelo de 
+\shape italic
+random walk
+\shape default
+ que representa o suprimento e a competiÃ§Ã£o entre BBs como o Problema da RuÃ­na do Jogador.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\label{eqn}
+N \ge -2^{k-1}\ln(\alpha)\frac{\sigma_{bb}\sqrt{\pi(m-1)}}{d}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $k$
+\end_inset
+
+ Ã© o tamanho do BB, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ Ã© a probabilidade de falha, 
+\begin_inset Formula $\sigma_{bb}$
+\end_inset
+
+ Ã© o desvio padrÃ£o do fitness dos BBs, 
+\begin_inset Formula $d$
+\end_inset
+
+ Ã© a diferenÃ§a entre o melhor e o segundo melhor BB e 
+\begin_inset Formula $m$
+\end_inset
+
+ representa o nÃºmero mÃ¡ximo de BBs. O termo 
+\begin_inset Formula $\sigma_{bb}\sqrt{\pi(m-1)}$
+\end_inset
+
+ representa a interferÃªncia do ruÃ­do na competiÃ§Ã£o entre BBs 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "WRCR:WRCR8771"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para, por exemplo, assegurar a convergÃªncia para uma soluÃ§Ã£o prÃ³xima a Ã³tima com uma probabilidade maior que 95%, o 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ deve ser menor que 5%.
+\end_layout
+
+\begin_layout Standard
+Em nosso problema temos 13225 variÃ¡veis, ou genes, cada uma com 4 estados possÃ­veis (
+\begin_inset Formula $S^{ss}$
+\end_inset
+
+) ao invÃ©s de estados binÃ¡rios. Como ocorre esse aumento no nÃºmero de estados, nossa equaÃ§Ã£o para estimar o 
+\begin_inset Formula $N$
+\end_inset
+
+ Ã© modificada para:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\label{eqn2}
+N \ge -4^{k-1}\ln(\alpha)\frac{\sigma_{bb}\sqrt{\pi(m-1)}}{d}
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No entanto, como nosso problema tem 
+\begin_inset Formula $k=1$
+\end_inset
+
+ devido a independÃªncia entre os elementos das regras de transiÃ§Ã£o dos autÃ´matos celulares, o resultado da equaÃ§Ã£o nÃ£o Ã© alterado pelo nÃºmero de estados 
+\begin_inset Formula $S^{ss}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para estimar os valores de 
+\begin_inset Formula $\sigma_{bb}$
+\end_inset
+
+ e 
+\begin_inset Formula $d$
+\end_inset
+
+ foram gerados 500000 indivÃ­duos. Essa amostra foi utilizada para calcularmos o fitness mÃ©dio e o desvio padrÃ£o do fitness para cada um dos 4 estados possÃ­veis dos 13225 genes. A diferenÃ§a entre o maior fitness mÃ©dio dentre os 52900 calculados e o fitness mÃ©dio de seu melhor competidor, ou seja, no mesmo BB, foi utilizado para estimarmos 
+\begin_inset Formula $d$
+\end_inset
+
+ (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab_fit"
+
+\end_inset
+
+) e resultou em 
+\begin_inset Formula $d=0,001972661$
+\end_inset
+
+. O valor de 
+\begin_inset Formula $\sigma_{bb}$
+\end_inset
+
+ foi definido como sendo a mÃ©dia dos 52900 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ calculados de cada BB e resultou em 
+\begin_inset Formula $\sigma_{bb}=0.0241745599487$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ParÃ¢metros: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $k=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $m=13225$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $\sigma_{bb}=0.0241745599487$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $d=0,001972661$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="7" columns="5">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+#BB 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+alÃ§a 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+hÃ©lice 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+fita 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+indefinido 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.23449416747 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.23431394377 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234057267599 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234641266667 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234400559059 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.23418784333 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234336782416 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234589721927 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+2 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234334660854 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.235053426835 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.23364863406 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234490579159 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234793579586 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.233538815916 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234522613316 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234683748762 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.235535591828 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.233493969724 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.234588961624 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+0.233911300129 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+... 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+... 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+... 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+... 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+...
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Standard
+Fitness mÃ©dio dos estados por BBs. O fitness mÃ©dio foi calculado para cada um dos 13225 BBs. Neste segmento da tabela utilizado como exemplo, o BB com maior fitness mÃ©dio Ã© o BB 4 com estado igual a alÃ§a (0.235535591828). Logo, seu maior competidor Ã© o estado fita, tambÃ©m do BB 4 (0.234588961624), pois BBs em outros locais - outros nÃºmeros - nÃ£o sÃ£o competidores. Considerando esse exemplo, 
+\begin_inset Formula $d$
+\end_inset
+
+ seria igual a 
+\begin_inset Formula $0.235535591828-0.234588961624$
+\end_inset
+
+, logo 
+\begin_inset Formula $d=0,00094663$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab_fit"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com os parÃ¢metros calculados e considerando 
+\begin_inset Formula $\alpha=0.01$
+\end_inset
+
+, conseguimos estimar que 
+\begin_inset Formula $N\ge11502,9$
+\end_inset
+
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig_n"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig_n"
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename fig1.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+O grÃ¡fico demonstra o tamanho da populaÃ§Ã£o estimado pela probabilidade de convergÃªncia 
+\begin_inset Formula $P_{c}$
+\end_inset
+
+, onde 
+\begin_inset Formula $P_{c}=1-\alpha$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Complexidade computacional
+\end_layout
+
+\begin_layout Standard
+ApÃ³s a estimaÃ§Ã£o do tamanho da populaÃ§Ã£o, podemos analisar a complexidade do GA. A complexidade Ã© medida como o nÃºmero de funÃ§Ãµes necessÃ¡rias para atingir a soluÃ§Ã£o Ã³tima e pode ser calculada como o nÃºmero de geraÃ§Ãµes, ou tempo de convergÃªncia, multiplicado pelo tamanho da populaÃ§Ã£o.
+\end_layout
+
+\begin_layout Standard
+O tempo de convergÃªncia Ã© afetado pela taxa relativa com que os genes convergem. Por exemplo, quando todos os genes sÃ£o igualmente importantes para a soluÃ§Ã£o e a convergÃªncia ocorre uniformemente, o tempo de convergÃªncia Ã© uma funÃ§Ã£o de 
+\begin_inset Formula $O(\sqrt{l})$
+\end_inset
+
+, onde 
+\begin_inset Formula $l$
+\end_inset
+
+ Ã© o tamanho da string de genes. Quando a importÃ¢ncia de cada gene varia, a convergÃªncia ocorre sequencialmente e consequentemente, o tempo de convergÃªncia Ã© uma funÃ§Ã£o de 
+\begin_inset Formula $O(l)$
+\end_inset
+
+. Esses dois casos representam o limite inferior e superior da complexidade do tempo de convergÃªncia.
+\end_layout
+
+\begin_layout Standard
+Assumindo uma seleÃ§Ã£o por torneio, temos que o tempo de convergÃªncia para todas as strings, assumindo uma convergÃªncia sequencial dos genes (
+\emph on
+domino convergence
+\emph default
+) Ã© 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Thierens:1994:CMG:645822.670524,Thierens98dominoconvergence"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\label{eqt}
+t = 2l
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assim, podemos estimar um tempo de convergÃªncia colocando um limite superior calculado pela equaÃ§Ã£o 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqt"
+
+\end_inset
+
+. Considerando 
+\begin_inset Formula $l=2*13225$
+\end_inset
+
+, pois cada gene precisa de dois bits para ser representado, temos que o tempo de convergÃªncia mÃ¡ximo serÃ¡ de 52900 geraÃ§Ãµes. Entretanto, como todas as variÃ¡veis sÃ£o importantes para o autÃ´mato, acreditamos que a convergÃªncia poderÃ¡ ocorrer uniformemente e portanto a partir de 162 geraÃ§Ãµes (
+\begin_inset Formula $t=\sqrt{l}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Considerando o tempo de convergÃªncia mÃ¡ximo estimado 
+\begin_inset Formula $t=52900$
+\end_inset
+
+ e uma populaÃ§Ã£o estimada 
+\begin_inset Formula $N=11502$
+\end_inset
+
+ conseguimos estimar que poderÃ£o ser necessÃ¡rias aproximadamente 600 milhÃµes de avaliaÃ§Ãµes.
+\end_layout
+
+\begin_layout Section
+Deriva genÃ©tica
+\end_layout
+
+\begin_layout Standard
+A deriva genÃ©tica ocorre em uma populaÃ§Ã£o quando a mutaÃ§Ã£o e o crossover fazem os genes flutuarem e convergirem para um soluÃ§Ã£o nÃ£o Ã³tima na ausÃªncia de uma pressÃ£o seletiva.
+\end_layout
+
+\begin_layout Standard
+O nÃºmero esperado de geraÃ§Ãµes para os genes convergirem na ausÃªncia de pressÃ£o seletiva para uma populaÃ§Ã£o inicial de strings binÃ¡rias geradas randomicamente com proporÃ§Ãµes iguais de 0s e 1s Ã© estimado como 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "Thierens98dominoconvergence"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\label{eqtderiv}
+t_{deriv} = 1.4N
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O que resulta em 
+\begin_inset Formula $t_{deriv}=18515$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A equaÃ§Ã£o 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqtderiv"
+
+\end_inset
+
+ mostra que o tempo de convergÃªncia devido a deriva genÃ©tica Ã© uma funÃ§Ã£o linear do tamanho da populaÃ§Ã£o. Para assegurar que uma ocorra uma convergÃªncia para um Ã³timo ao invÃ©s de uma convergÃªncia por deriva genÃ©tica podemos satisfazer a condiÃ§Ã£o.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\label{eqttd}
+t < t_{deriv} 
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No nosso caso, o tempo de convergÃªncia mÃ¡ximo obtido pela equaÃ§Ã£o 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eqt"
+
+\end_inset
+
+ foi 
+\begin_inset Formula $t=52900$
+\end_inset
+
+. Consequentemente, deverÃ­amos aumentar 
+\begin_inset Formula $N$
+\end_inset
+
+ para aproximadamente 37785, o que elevaria para quase 2 bilhÃµes o nÃºmero de avaliaÃ§Ãµes necessÃ¡ria no pior caso.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+chapter{ConclusÃ£o}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O design de algoritmos genÃ©ticos competentes reduz o tempo gasto na busca por parÃ¢metros que resultem em soluÃ§Ãµes Ã³timas e fornece estimativas do tamanho do problema. No nosso caso, conseguimos estimar diversos parÃ¢metros, por exemplo:
+\end_layout
+
+\begin_layout Itemize
+No pior caso, onde terÃ­amos uma convergÃªncia sequencial dos genes, o nÃºmero de geraÃ§Ãµes necessÃ¡rias seria aproximadamente 50000 e necessitarÃ­amos de uma populaÃ§Ã£o aproximada de 40000 indivÃ­duos para evitar uma convergÃªncia por deriva genÃ©tica. Isso resultaria em quase 2 bilhÃµes de avaliaÃ§Ãµes. Considerando o tempo de cada avaliaÃ§Ã£o igual a 0.5s/CPU, terÃ­amos o total necessÃ¡rio de 280 mil horas/CPU, ou seja, 30 anos/CPU, o que tornaria o problema inviÃ¡vel.
+\end_layout
+
+\begin_layout Itemize
+No melhor caso terÃ­amos um convergÃªncia uniforme dos genes e portanto, o nÃºmero de geraÃ§Ãµes necessÃ¡rias seria de aproximadamente 162. Como o nÃºmero de geraÃ§Ãµes seria menor que o tempo de convergÃªncia por deriva genÃ©tica, poderÃ­amos manter 
+\begin_inset Formula $N=11502$
+\end_inset
+
+. Isso resultaria em um nÃºmero de avaliaÃ§Ãµes necessÃ¡rias menor que 2 milhÃµes, ou 280 horas/CPU. Assim, o melhor caso tem uma ordem de grandeza 1000 vezes menor que o pior caso, necessitando apenas de 12 dias/CPU. 
+\end_layout
+
+\begin_layout Standard
+Os elementos das regras de transiÃ§Ã£o dos autÃ´matos celulares sÃ£o independentes entre si e todos sÃ£o necessÃ¡rios para a evoluÃ§Ã£o do autÃ´mato celular. Tais caracterÃ­sticas sugerem que a convergÃªncia deverÃ¡ ocorrer de maneira uniforme, e consequentemente teremos uma convergÃªncia mais prÃ³xima ao "melhor caso" analisado acima.
+\end_layout
+
+\begin_layout Standard
+ 
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "biblio"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{document}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document
